@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="EKPjzMrlg9t_fplT7NgG">
+    <mxGraphModel dx="786" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ltcrQOdWJTjJK4vgKZ7d-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Weather command&lt;/div&gt;&lt;div&gt;past hours&lt;/div&gt;&lt;div&gt;dynamic&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="209.69" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ltcrQOdWJTjJK4vgKZ7d-15" edge="1" parent="1" source="ltcrQOdWJTjJK4vgKZ7d-2" style="endArrow=classic;html=1;rounded=0;exitX=0.993;exitY=0.845;exitDx=0;exitDy=0;exitPerimeter=0;" target="ltcrQOdWJTjJK4vgKZ7d-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="329.29" y="350" as="sourcePoint" />
+            <mxPoint x="390" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltcrQOdWJTjJK4vgKZ7d-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Twitch&lt;/div&gt;&lt;div&gt;!past city 6&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="ltcrQOdWJTjJK4vgKZ7d-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=-0.008;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" target="ltcrQOdWJTjJK4vgKZ7d-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="490" y="360" as="sourcePoint" />
+            <mxPoint x="550" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltcrQOdWJTjJK4vgKZ7d-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" value="&lt;div&gt;output:&lt;/div&gt;&lt;div&gt;past weather 6h&lt;/div&gt;&lt;div&gt;1/h&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="ltcrQOdWJTjJK4vgKZ7d-19" edge="1" parent="1" source="ltcrQOdWJTjJK4vgKZ7d-2" style="endArrow=classic;html=1;rounded=0;exitX=-0.022;exitY=0.934;exitDx=0;exitDy=0;exitPerimeter=0;" target="ltcrQOdWJTjJK4vgKZ7d-20" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="340" as="sourcePoint" />
+            <mxPoint x="130" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltcrQOdWJTjJK4vgKZ7d-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div&gt;create GH repo&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="90" x="50" y="330.42" as="geometry" />
+        </mxCell>
+        <mxCell id="ltcrQOdWJTjJK4vgKZ7d-21" edge="1" parent="1" source="ltcrQOdWJTjJK4vgKZ7d-20" style="endArrow=classic;html=1;rounded=0;exitX=0.536;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" target="ltcrQOdWJTjJK4vgKZ7d-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="187" y="420" as="sourcePoint" />
+            <mxPoint x="120" y="426" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltcrQOdWJTjJK4vgKZ7d-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" value="&lt;div&gt;output:&lt;/div&gt;&lt;div&gt;past weather 4h&lt;/div&gt;&lt;div&gt;1/h&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="420.42" as="geometry" />
+        </mxCell>
+        <mxCell id="ltcrQOdWJTjJK4vgKZ7d-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Twitch&lt;/div&gt;&lt;div&gt;!past city 4&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="420.42" as="geometry" />
+        </mxCell>
+        <mxCell id="ltcrQOdWJTjJK4vgKZ7d-25" edge="1" parent="1" source="ltcrQOdWJTjJK4vgKZ7d-24" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ltcrQOdWJTjJK4vgKZ7d-23" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="480" y="490" as="sourcePoint" />
+            <mxPoint x="559" y="454" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltcrQOdWJTjJK4vgKZ7d-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Twitch&lt;/div&gt;&lt;div&gt;!past city 9&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="ltcrQOdWJTjJK4vgKZ7d-27" edge="1" parent="1" source="ltcrQOdWJTjJK4vgKZ7d-24" style="endArrow=none;dashed=1;html=1;rounded=0;" target="ltcrQOdWJTjJK4vgKZ7d-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460" y="530" as="sourcePoint" />
+            <mxPoint x="510" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltcrQOdWJTjJK4vgKZ7d-28" edge="1" parent="1" source="ltcrQOdWJTjJK4vgKZ7d-26" style="endArrow=none;dashed=1;html=1;rounded=0;" target="ltcrQOdWJTjJK4vgKZ7d-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="430" y="510" as="sourcePoint" />
+            <mxPoint x="430" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltcrQOdWJTjJK4vgKZ7d-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" value="&lt;div&gt;output:&lt;/div&gt;&lt;div&gt;past weather 9h&lt;/div&gt;&lt;div&gt;1/h&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="ltcrQOdWJTjJK4vgKZ7d-30" edge="1" parent="1" source="ltcrQOdWJTjJK4vgKZ7d-26" style="endArrow=classic;html=1;rounded=0;entryX=0.003;entryY=0.415;entryDx=0;entryDy=0;entryPerimeter=0;" target="ltcrQOdWJTjJK4vgKZ7d-29" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="510" y="520" as="sourcePoint" />
+            <mxPoint x="570" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltcrQOdWJTjJK4vgKZ7d-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" value="implement railway" vertex="1">
+          <mxGeometry height="60" width="120" x="200.23000000000002" y="370.00000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="ltcrQOdWJTjJK4vgKZ7d-11" edge="1" parent="1" source="ltcrQOdWJTjJK4vgKZ7d-10" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;" target="ltcrQOdWJTjJK4vgKZ7d-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="260.14" y="430" as="sourcePoint" />
+            <mxPoint x="260.14" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltcrQOdWJTjJK4vgKZ7d-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;API - links&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="199.99999999999994" y="470.00000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="ltcrQOdWJTjJK4vgKZ7d-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="200.23000000000005" y="579.5799999999999" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
