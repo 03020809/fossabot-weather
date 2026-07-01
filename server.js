@@ -134,7 +134,4 @@ app.get("/wetter", async (req, res) => {
   res.send(`${currentLine} ||| ${dataLine}`);
 });
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, "0.0.0.0", () => {
-  console.log(`Server running on port ${PORT}`);
-});
+app.listen(3000, () => console.log('Weather bot running on 3000'));
