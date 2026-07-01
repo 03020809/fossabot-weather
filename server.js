@@ -1,10 +1,10 @@
 const express = require("express");
-const fetch = require("node-fetch");
 const app = express();
 
 const toF = c => Math.round(c * 9 / 5 + 32);
 
 app.get("/wetter", async (req, res) => {
+  const fetch = (await import("node-fetch")).default;
   const querystring = req.query.querystring;
 
   // --- parse querystring ---
@@ -84,12 +84,11 @@ app.get("/wetter", async (req, res) => {
   let dataLine = "";
 
   if (unit === "h") {
-    const h       = weatherData.hourly;
-    const times   = h.time.slice(-m);
-    const rows    = times.map((t, i) => {
+    const h    = weatherData.hourly;
+    const rows = Array.from({ length: m }, (_, i) => {
       const idx = h.time.length - m + i;
       return [
-        t.slice(11, 16),
+        h.time[idx].slice(11, 16),
         `${h.temperature_2m[idx]}°C / ${toF(h.temperature_2m[idx])}°F`,
         `feels ${h.apparent_temperature[idx]}°C / ${toF(h.apparent_temperature[idx])}°F`,
         `humidity ${h.relative_humidity_2m[idx]}%`,
@@ -104,18 +103,17 @@ app.get("/wetter", async (req, res) => {
         `uv ${h.uv_index[idx]}`,
         `sunshine ${h.sunshine_duration[idx]}s`,
         h.is_day[idx] ? "day" : "night"
-      ].join(" ");
+      ].join(" | ");
     });
     dataLine = rows.join(" || ");
 
   // --- daily output ---
   } else {
     const d    = weatherData.daily;
-    const days = unit === "d" && past ? d.time.slice(-n) : d.time.slice(0, n);
-    const rows = days.map((date, i) => {
+    const rows = Array.from({ length: n }, (_, i) => {
       const idx = past ? d.time.length - n + i : i;
       return [
-        date,
+        d.time[idx],
         `weather code ${d.weather_code[idx]}`,
         `uv max ${d.uv_index_max[idx]}`,
         `max ${d.temperature_2m_max[idx]}°C / ${toF(d.temperature_2m_max[idx])}°F`,
